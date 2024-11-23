@@ -1,0 +1,15 @@
+const fruits = ['apple', 'banana', 'cherry', 'date'];
+fruits.splice(2);
+console.log(fruits);
+
+fruits.splice(1, 2);
+console.log(fruits);
+
+fruits.splice(2, 1, 'grape');
+console.log(fruits);
+
+fruits.splice(1, 2, 'grape', 'orange');
+console.log(fruits);
+
+fruits.splice(1, 2, 'grape', 'orange', 'kiwi');
+console.log(fruits);
